@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS `studentmgtsystem`.`standardd` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `standard` VARCHAR(45) NOT NULL,
+  `std` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 11
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+CREATE TABLE IF NOT EXISTS `studentmgtsystem`.`subjectt` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `std` VARCHAR(45) NOT NULL,
+  `subject` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 10
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
